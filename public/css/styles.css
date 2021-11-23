@@ -1,0 +1,92 @@
+div{
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: #f6e8c5;
+    width: 30%;
+    padding-bottom: 1%;
+    border-radius: 5px;
+    border:2px solid tan;
+}
+body{
+    background-image: url('../images/loginbackground.jpg');
+    background-repeat:no-repeat;
+    background-size: cover ;
+    padding-top: 17%;
+    text-align: center;
+    color: #6d4341;
+}
+input{
+    border-color: tan;
+    border-style: solid;
+    color: #7a715b;
+    background-color: #f8e5b3;
+    border-color: #7a715b;
+    width: 90%;
+    margin-top: 1px;
+    border-width: 2px;
+    border-radius: 5px ;
+    border-width: 2px;
+    
+}
+::placeholder{
+    color: #7a715b6e;
+}
+.loginField{
+    width: 87%;
+    height: 20px;
+    margin-bottom: 2px;
+    padding-left: 2%;
+}
+.mainTitle{
+    font-size: 300%;
+    margin-left: auto;
+    margin-right: auto;
+    font-style: oblique;
+}
+hr{
+    width: 90%;
+    border-style: dashed;
+    border-color: tan;
+}
+table{
+    background-color: #f6e8c5;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid tan;
+    border-collapse: collapse;
+}
+th{
+    width: 9%;
+    border: solid tan ;
+    border-collapse: collapse;
+}
+td{
+    text-align: center;
+    width: 9%;
+    border: solid tan ;
+    border-collapse: collapse;
+}
+input[type=time]{
+    background-color: #f6e8c5;
+    border: none;
+    color: rgb(73, 73, 73);
+    margin-left: auto;
+    margin-right: auto;
+}
+#timeUpdate{
+    width: 10%;
+}
+.time{
+    border:none;
+    background-color: #f6e8c5;
+    padding-left: auto;
+    padding-right: auto;
+}
+input[type="checkbox"] {
+    display: inline-block;
+    width: 15px;
+    vertical-align:middle;
+}

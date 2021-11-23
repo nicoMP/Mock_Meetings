@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compstible" content="IE=edge">
+    <meta name="viewport" content="width = device-width, initialscale = 1.1">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="shortcut icon" type="image/png" href="./images/icon.png">
+    </head>
+    <title>mockDoodle Login</title>
+    <body>
+        <header class = 'mainTitle'>Welcome to mockDoodle</header>
+        <div class = 'container'>
+            
+            <p id = 'welcomeMsg'>Login as admin or continue as guest</p>
+            <form action = '/admin-log-in' method="post">
+                <input type="username" class="loginField" id="uname" placeholder="username"><br>
+                <input type="password" class="loginField" id="pswrd" placeholder="password"><br>
+                <input type="submit" value="Log In" id = 'adminSignIn'>
+            </form>
+            <hr>
+            <form action="/getTimeSlots" method="get"><input type = 'submit' value="Continue as Guest" id = 'guestSignin'></form>
+        </div>
+    </body>
+</html>
